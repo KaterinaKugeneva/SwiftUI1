@@ -13,19 +13,21 @@ struct ContentView: View {
     @State private var redlightOpacity = 0.3
     @State private var yellowlightOpacity = 0.3
     @State private var greenlightOpacity = 0.3
+    private let circleWidth = UIScreen.main.bounds.width / 3
     
     var body: some View {
         
         VStack{
-            Circle().frame(width: 100, height: 100)
+            Circle().frame(width: circleWidth, height: circleWidth)
                 .foregroundColor(.red)
                 .opacity(redlightOpacity)
                 .overlay(Circle().stroke())
-            Circle().frame(width: 100, height: 100)
+                
+            Circle().frame(width: circleWidth, height: circleWidth)
                 .foregroundColor(.yellow)
                 .opacity(yellowlightOpacity)
                 .overlay(Circle().stroke())
-            Circle().frame(width: 100, height: 100)
+            Circle().frame(width: circleWidth, height: circleWidth)
                 .foregroundColor(.green)
                 .opacity(greenlightOpacity)
                 .overlay(Circle().stroke())
