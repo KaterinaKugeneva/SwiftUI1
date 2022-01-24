@@ -11,6 +11,8 @@
 		C4476A0227994CF0003AA094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4476A0127994CF0003AA094 /* ContentView.swift */; };
 		C4476A0427994CF2003AA094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4476A0327994CF2003AA094 /* Assets.xcassets */; };
 		C4476A0727994CF2003AA094 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4476A0627994CF2003AA094 /* Preview Assets.xcassets */; };
+		C4476A18279E8912003AA094 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4476A17279E8912003AA094 /* ColorLight.swift */; };
+		C4476A1A279E8957003AA094 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4476A19279E8957003AA094 /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C4476A0127994CF0003AA094 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4476A0327994CF2003AA094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4476A0627994CF2003AA094 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4476A17279E8912003AA094 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		C4476A19279E8957003AA094 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		C44769F327994CF0003AA094 = {
 			isa = PBXGroup;
 			children = (
+				C4476A19279E8957003AA094 /* ChangeColorButton.swift */,
 				C44769FE27994CF0003AA094 /* SwiftUI1 */,
 				C44769FD27994CF0003AA094 /* Products */,
 			);
@@ -53,6 +58,7 @@
 			children = (
 				C44769FF27994CF0003AA094 /* SwiftUI1App.swift */,
 				C4476A0127994CF0003AA094 /* ContentView.swift */,
+				C4476A17279E8912003AA094 /* ColorLight.swift */,
 				C4476A0327994CF2003AA094 /* Assets.xcassets */,
 				C4476A0527994CF2003AA094 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4476A18279E8912003AA094 /* ColorLight.swift in Sources */,
 				C4476A0227994CF0003AA094 /* ContentView.swift in Sources */,
 				C4476A0027994CF0003AA094 /* SwiftUI1App.swift in Sources */,
+				C4476A1A279E8957003AA094 /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
